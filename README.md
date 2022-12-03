@@ -14,4 +14,4 @@ Namecheap website for the logo i used
 
 # font
 
-Google font:
+Google font:'NTR' and Aldrich
