@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Quantico-Regular
+font link: https://fonts.google.com/specimen/Quantico
+font author: MADType
+font author site: http://www.madtype.com/
+
+
+icon designer: Nikita Kozin
+icon designer link: /kozinn
+        
+{"bg":"transparent","icon-gradient-0":"#6566CE","icon-gradient-1":"#DBC1D0","font":"#000000","slogan":"#141414"}
+      
