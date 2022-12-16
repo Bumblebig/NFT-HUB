@@ -18,6 +18,8 @@
       rel="stylesheet"
     />
     <title>NFT HUB</title>
+
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div class="main">
@@ -31,14 +33,16 @@
 
         <nav class="navigation-bar">
           <ul>
-            <li><a href="#">Drops </a></li>
-            <li><a href="#">Marketplace</a></li>
-            <li><a href="#">Creator</a></li>
-            <li><a href="#">Community</a></li>
+            <li><a href="#drops" class="nav-links">Drops </a></li>
+            <li><a href="#market" class="nav-links">Marketplace</a></li>
+            <li><a href="#creators" class="nav-links">Creator</a></li>
+            <li><a href="#community" class="nav-links">Community</a></li>
           </ul>
         </nav>
-        <input type="search" name="Search" placeholder="Search" id="search" />
-        <a href="#" class="connect connect--nav">Connect Wallet</a>
+        <div>
+          <input type="search" name="Search" placeholder="Search" id="search" />
+          <a href="#" class="connect connect--nav">Connect Wallet</a>
+        </div>
 
         <div class="menu-wrap">
           <input type="checkbox" class="toggler" />
@@ -47,10 +51,10 @@
             <div>
               <div>
                 <ul>
-                  <li><a href="#">Drops </a></li>
-                  <li><a href="#">Marketplace</a></li>
-                  <li><a href="#">Creator</a></li>
-                  <li><a href="#">Community</a></li>
+                  <li><a href="#drops" class="nav-links">Drops </a></li>
+                  <li><a href="#market" class="nav-links">Marketplace</a></li>
+                  <li><a href="#creators" class="nav-links">Creator</a></li>
+                  <li><a href="#community" class="nav-links">Community</a></li>
                 </ul>
               </div>
             </div>
@@ -104,7 +108,7 @@
 
       <h2>best marketplace NFT</h2>
 
-      <section class="market--place">
+      <section class="market--place section--hidden" id="market">
         <div class="col--1">
           <img
             src="img/Nft hub/purple-1.jpg"
@@ -139,7 +143,7 @@
         </div>
       </section>
 
-      <section class="categories">
+      <section class="categories section--hidden" id="drops">
         <h3>Hot Drops🔥</h3>
         <div class="nfts">
           <div class="nft--card">
@@ -269,7 +273,7 @@
         </div>
       </section>
 
-      <section class="subscribe">
+      <section class="subscribe section--hidden">
         <div class="subscribe--section">
           <figure>
             <img
@@ -352,14 +356,14 @@
         </div>
       </div>
 
-      <div class="top-creator">
+      <div class="top-creator" id="creators">
         <h3>
           <span class="creator--topSmall">NFT creators</span>
           <span class="creator--topBig">Top Creators This Week 🎭</span>
         </h3>
       </div>
 
-      <section class="top__creators">
+      <section class="top__creators section--hidden">
         <figure class="top--card">
           <div class="top-col">
             <div class="top--img">
@@ -591,7 +595,7 @@
         <a href="#" class="ranking-btn">View rankings</a>
       </div>
 
-      <section class="community">
+      <section class="community section--hidden" id="community">
         <div class="community__heading">
           <h3>Join our community 👨‍👨</h3>
           <p>

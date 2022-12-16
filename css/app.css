@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "NTR", sans-serif;
+  font-family: 'NTR', sans-serif;
   font-size: 2.3rem;
   color: rgb(26, 1, 32);
   font-weight: 600;
@@ -28,6 +28,15 @@ body {
   min-width: 340px;
   overflow-x: hidden;
   margin: 0 auto;
+}
+
+section {
+  transition: all 0.5s ease-out;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
 }
 
 header {
@@ -168,7 +177,7 @@ header {
 
 .menu-wrap .hamburger > div:before,
 .menu-wrap .hamburger > div:after {
-  content: "";
+  content: '';
   position: absolute;
   z-index: 1;
   top: -10px;
@@ -269,13 +278,14 @@ header {
 /* heading */
 
 h1 {
-  font-family: "Aldrich", sans-serif;
+  font-family: 'Aldrich', sans-serif;
   font-size: 7rem;
   margin-left: 2.5rem;
   color: #eee;
   width: 60rem;
-  margin-bottom: 0.95rem;
+  margin-bottom: 20px;
   margin-left: 6rem;
+  line-height: 1.2;
   animation: heading 1.2s ease-out 0.3s;
 }
 
