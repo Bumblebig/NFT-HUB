@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'NTR', sans-serif;
+  font-family: "NTR", sans-serif;
   font-size: 2.3rem;
   color: rgb(26, 1, 32);
   font-weight: 600;
@@ -177,7 +177,7 @@ header {
 
 .menu-wrap .hamburger > div:before,
 .menu-wrap .hamburger > div:after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 1;
   top: -10px;
@@ -278,7 +278,7 @@ header {
 /* heading */
 
 h1 {
-  font-family: 'Aldrich', sans-serif;
+  font-family: "Aldrich", sans-serif;
   font-size: 7rem;
   margin-left: 2.5rem;
   color: #eee;
@@ -1081,6 +1081,16 @@ footer li {
 
   .menu-wrap {
     display: inline-block;
+  }
+
+  .connect--ham {
+    background-color: rgba(142, 123, 180, 0.781);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
